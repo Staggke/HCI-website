@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/HCI-website/static/css/main.4a76deca.css",
-    "main.js": "/HCI-website/static/js/main.068a174a.js",
+    "main.js": "/HCI-website/static/js/main.114c4f58.js",
     "index.html": "/HCI-website/index.html",
     "main.4a76deca.css.map": "/HCI-website/static/css/main.4a76deca.css.map",
-    "main.068a174a.js.map": "/HCI-website/static/js/main.068a174a.js.map"
+    "main.114c4f58.js.map": "/HCI-website/static/js/main.114c4f58.js.map"
   },
   "entrypoints": [
     "static/css/main.4a76deca.css",
-    "static/js/main.068a174a.js"
+    "static/js/main.114c4f58.js"
   ]
 }
