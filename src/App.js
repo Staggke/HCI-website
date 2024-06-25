@@ -6,7 +6,12 @@ import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 
 function App() {
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
   return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
     <div className="App">
       <ShopContextProvider>
         <Router>
