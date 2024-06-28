@@ -1,59 +1,59 @@
-import product1 from './assets/1.png';
-import product2 from './assets/2.png';
-import product3 from './assets/3.png';
-import product4 from './assets/4.png';
-import product5 from './assets/5.png';
-import product6 from './assets/6.webp';
-import product7 from './assets/7.webp';
-import product8 from './assets/8.webp';
+import product1 from './assets/img1.webp';
+import product2 from './assets/img2.jpg';
+import product3 from './assets/img3.webp';
+import product4 from './assets/img4.jpg';
+import product5 from './assets/img5.webp';
+import product6 from './assets/img6.jpg';
+import product7 from './assets/img7.webp';
+import product8 from './assets/img8.webp';
 
 export const PRODUCTS = [
     {
         id: 1,
-        productName: "Iphone",
-        price: 999.0,
+        productName: "Playstation 5",
+        price: 449.0,
         productImage: product1,
     },
     {
         id: 2,
-        productName: "Macbook Pro 2022 (M1)",
-        price: 1999.0,
+        productName: "Apple Watch Series 5 (GPS 40MM)",
+        price: 146.75,
         productImage: product2,
     },
     {
         id: 3,
-        productName: "Cannon M50 Camera",
-        price: 2999.0,
+        productName: "Sony DualSense Wireless Controller",
+        price: 59.99,
         productImage: product3,
     },
     {
         id: 4,
-        productName: "Jacket",
-        price: 150.0,
+        productName: "Restored Nintendo DSi",
+        price: 139.99,
         productImage: product4,
     },
     {
         id: 5,
-        productName: "LED Strip Lights",
-        price: 15.0,
+        productName: "Logitech MX Mechanical Wireless Keyboard",
+        price: 349.99,
         productImage: product5,
     },
     {
         id: 6,
-        productName: "Long Sleeve Shirt",
-        price: 75.0,
+        productName: "Sanpyl RX 580 Gaming Graphics Card 8GB GDDR5",
+        price: 104.35,
         productImage: product6,
     },
     {
         id: 7,
-        productName: "Short Sleeve Shirt",
-        price: 83.0,
+        productName: "Apple AirPods Pro (2nd Generation)",
+        price: 129.0,
         productImage: product7,
     },
     {
         id: 8,
-        productName: "Hat",
-        price: 56.0,
+        productName: "Nintendo Switch OLED Console Black",
+        price: 330.99,
         productImage: product8,
     },
 ];
