@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HCI-website/static/css/main.61f18e96.css",
-    "main.js": "/HCI-website/static/js/main.7ec7e6a8.js",
+    "main.js": "/HCI-website/static/js/main.c73f871d.js",
     "static/media/img4.jpg": "/HCI-website/static/media/img4.7db76d60c838f18f00b5.jpg",
     "static/media/img2.jpg": "/HCI-website/static/media/img2.cea9289733f7f2148589.jpg",
     "static/media/img6.jpg": "/HCI-website/static/media/img6.827f9c99813508aa28fa.jpg",
@@ -12,10 +12,10 @@
     "static/media/img7.webp": "/HCI-website/static/media/img7.2f638e2f58bd6d9168ec.webp",
     "index.html": "/HCI-website/index.html",
     "main.61f18e96.css.map": "/HCI-website/static/css/main.61f18e96.css.map",
-    "main.7ec7e6a8.js.map": "/HCI-website/static/js/main.7ec7e6a8.js.map"
+    "main.c73f871d.js.map": "/HCI-website/static/js/main.c73f871d.js.map"
   },
   "entrypoints": [
     "static/css/main.61f18e96.css",
-    "static/js/main.7ec7e6a8.js"
+    "static/js/main.c73f871d.js"
   ]
 }
