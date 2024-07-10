@@ -13,7 +13,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Shop />} />
+            <Route exact path="/ " element={<Shop />} />
             <Route exact path="/cart" element={<Cart />} />
             <Route exact path="/:productId" element={<ProductPage />} />
           </Routes>
