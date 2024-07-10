@@ -10,12 +10,12 @@ export const Product = (props) => {
 
     return (
         <div className="product">
-            <Link to={`/${props.data.id}`}>
+            <Link to={`${props.data.id}`}>
             <img src={productImage} />
             </Link>
             <div classname="description">
                 <h3>
-                    <Link to={`/${props.data.id}`} style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={`${props.data.id}`} style={{ textDecoration: "none", color: "black" }}>
                     {productName}
                     </Link>
                 </h3>
