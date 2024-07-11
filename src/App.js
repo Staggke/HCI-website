@@ -5,13 +5,26 @@ import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import { ProductPage } from './pages/productPage/productPage';
 import { ShopContextProvider } from './context/shop-context';
+import { createContext, useState } from 'react';
+import ReactSwitch from 'react-switch';
+
+export const ThemeContext = createContext(null);
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
   return (
-    <div className="App">
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <div className="App" id={theme}>
       <ShopContextProvider>
         <Router>
-          <Navbar />
+          <Navbar /> 
+          <div className='switch'>
+                <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+            </div>
           <Routes>
             <Route path="/HCI-website" element={<Shop />} />
             <Route path="HCI-website/cart" element={<Cart />} />
@@ -20,6 +33,7 @@ function App() {
         </Router>
       </ShopContextProvider>
     </div>
+    </ThemeContext.Provider>
   );
 }
 

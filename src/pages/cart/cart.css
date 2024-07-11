@@ -5,11 +5,27 @@
     align-items: center;
 }
 
+#light .cart {
+    color: black;
+}
+
+#dark .cart {
+    color: white;
+}
+
 .emptyCart {
     width: 100%;
     font-size: 23px;
     margin-top: 1px;
     font-weight: 500;
+}
+
+#light .emptyCart {
+    color: black;
+}
+
+#dark .emptyCart {
+    color: white;
 }
 
 .cartItem {
@@ -23,8 +39,17 @@
     margin: 30px;
 }
 
+#light .cartItem {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#dark .cartItem {
+    box-shadow: 0px 3px 15px black;
+}
+
 .cartItem img {
     width: 200px;
+    margin-left: 10px;
 }
 
 .cartItem .description {

@@ -13,7 +13,7 @@ export const ProductPage = () => {
         <div className="prod">
             {<img src = {PRODUCTS[productId-1].productImage} />}
             <div className="descript">
-                <h1>wasd</h1>
+                <h1>{PRODUCTS[productId-1].productName}</h1>
                 <p>Price: ${PRODUCTS[productId-1].price}</p>
                     <button className="addToCartBttn" onClick={() => addToCart(productId)}> 
                         Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}

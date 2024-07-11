@@ -1,13 +1,17 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 import { Link } from "react-router-dom";
-import { TextUnderline } from "phosphor-react";
 
 export const Product = (props) => {
     const { id, productName, price, productImage } = props.data;
     const { addToCart, cartItems } = useContext(ShopContext);
     const cartItemAmount = cartItems[id]
 
+    {/*
+        FIX URLS BEFORE FINAL GITHUB COMMIT 
+        <Link to={`HCI-website/${props.data.id}`}>
+        WILL LIKELY WORK
+    */}
     return (
         <div className="product">
             <Link to={`${props.data.id}`}>
@@ -15,7 +19,7 @@ export const Product = (props) => {
             </Link>
             <div classname="description">
                 <h3>
-                    <Link to={`${props.data.id}`} style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={`${props.data.id}`} style={{ textDecoration: "none", color: "grey" }}>
                     {productName}
                     </Link>
                 </h3>
