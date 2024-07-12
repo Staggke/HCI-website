@@ -1,6 +1,7 @@
 import React from "react"; 
 import {Link} from 'react-router-dom';
 import { ShoppingCart } from 'phosphor-react';
+import { Heart } from 'phosphor-react';
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -8,6 +9,9 @@ export const Navbar = () => {
     <div className="navbar">
         <div className="links">
             <Link to="/HCI-website"> Shop </Link>
+            <Link to="/HCI-website/wishlist">
+                <Heart size={25} />
+            </Link>
             <Link to="HCI-website/cart"> 
                 <ShoppingCart size={32} />
             </Link>

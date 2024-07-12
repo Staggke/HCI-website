@@ -1,0 +1,75 @@
+.wish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#light .wish {
+    color: black;
+}
+
+#dark .wish {
+    color: white;
+}
+
+.emptyWish {
+    width: 100%;
+    font-size: 23px;
+    margin-top: 1px;
+    font-weight: 500;
+}
+
+#light .emptyWish {
+    color: black;
+}
+
+#dark .emptyWish {
+    color: white;
+}
+
+.wishItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+}
+
+#light .wishItem {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#dark .wishItem {
+    box-shadow: 0px 3px 15px black;
+}
+
+.wishItem img {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.wishItem .description {
+    width: 100%;
+    font-size: 25px;
+}
+
+.countHandlerW  {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.checkoutW button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}

@@ -3,8 +3,17 @@
     margin-bottom: 100px;
     text-align: center;
     font-size: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+#light .shopTitle {
+    color: black;
+}
+
+#dark .shopTitle {
+    color: white;
+}
+
 .products {
     width: 100%;
     height: auto;
@@ -26,13 +35,19 @@
 .product img {
     width: 250px;
     vertical-align: bottom;
-    
 }
 
 .product .description {
+    display: flex;
     text-align: center;
-    align-items: baseline;
+}
 
+#light .product {
+    color: black;
+}
+
+#dark .product {
+    color: white;
 }
 
 .product:hover {
@@ -51,8 +66,51 @@
     border-radius: 15px; 
 }
 
+#light .addToCartBttn {
+    border: 2px solid black;
+    color: black
+}
+
+#dark .addToCartBttn {
+    border: 2px solid white;
+    color: white;
+}
+
 .addToCartBttn:hover {
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
 }
+
+#light .addToCartBttn:hover {
+    background-color: black;
+    color: white;
+}
+
+#dark .addToCartBttn:hover {
+    background-color: white;
+    color: black;
+}
+
+.wishlist {
+    padding-right: 20px;
+     
+}
+
+#light .wishlist {
+    color: grey;
+}
+
+#light .wishlist:hover {
+    color: black;
+}
+
+#dark .wishlist {
+    color: lightgrey;
+}
+
+#dark .wishlist:hover {
+    color: grey;
+}
+
+
