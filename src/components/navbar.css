@@ -25,7 +25,7 @@
 .links a {
     text-decoration: none;
     color: white;
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 25px;
 }
 
@@ -35,4 +35,9 @@
 
 #dark .links a {
     color: white;
+}
+
+.links .account {
+    color: white;
+    transform: scale(1.3);
 }

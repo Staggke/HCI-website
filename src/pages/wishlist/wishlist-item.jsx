@@ -16,9 +16,9 @@ export const WishItem = (props) => {
                 </p>   
                 <p> ${price}</p>
                 <div className="countHandlerw">
-                <IconButton onClick={() => removeFromWish(id)} value={wishItems[id]} onChange={(e) => updateWishItemCount(Number(e.target.value), id)}>
-                <FavoriteIcon />
-                </IconButton>
+                    <IconButton onClick={() => removeFromWish(id)} value={wishItems[id]} onChange={(e) => updateWishItemCount(Number(e.target.value), id)}>
+                        <FavoriteIcon />
+                    </IconButton>
                 </div>
             </div>
         </div>
