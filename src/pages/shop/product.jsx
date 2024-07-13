@@ -23,7 +23,7 @@ export const Product = (props) => {
             </Link>
             <div classname="description">
                 <h3>
-                    <Link to={`${props.data.id}`} style={{ textDecoration: "none", color: "grey" }}>
+                    <Link to={`HCI-website/${props.data.id}`} style={{ textDecoration: "none", color: "grey" }}>
                         {productName}
                     </Link>
                 </h3>

@@ -1,0 +1,127 @@
+#light .main {
+    background-color: white;
+}
+
+#dark .main {
+    background-color: #232b2b;
+}
+
+.sign {
+    padding-top: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#light .sign {
+    color: black;
+}
+
+#dark .sign {
+    color: white;
+}
+
+.username {
+    width: 51%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+form.form1 {
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+#dark form.form1 {
+    box-shadow: 0px 3px 15px black;
+}
+
+.password {
+    width: 51%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#light .username,
+#light .password {
+    color: rgb(38, 50, 56);
+    background: rgba(136, 126, 126, 0.04);
+}
+
+#dark .username,
+#dark .password {
+    color: black;
+    background: lightgrey;
+}
+
+.username:focus,
+.password:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.submit {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: black;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    margin:auto;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+#dark .submit {
+    color: black;
+    background: grey;
+}
+
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #e1bee7;
+  padding-top: 15px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: black;
+  text-decoration: none;
+}
+
+#dark a {
+    color: white;
+}
+

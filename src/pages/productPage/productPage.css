@@ -19,17 +19,37 @@
     padding-bottom: 35px;
 }
 
+#light .prod {
+    color: black;
+}
 
-.prod .about{
+#dark .prod {
+    color: white;
+}
+
+.prod .about {
+    display: block;
+    align-items: center;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    border: 1px solid black;
-    width:500px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
     margin: auto;
+    width: fit-content;
     
+}
+
+#light .prod .about {
+    color: black;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#dark .prod .about {
+    color: white;
+    box-shadow: 0px 3px 15px black;
 }
 
 .addToCartBttn {
@@ -47,4 +67,25 @@
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
+}
+
+.wishlist {
+    padding-right: 20px;
+     
+}
+
+#light .wishlist {
+    color: grey;
+}
+
+#light .wishlist:hover {
+    color: black;
+}
+
+#dark .wishlist {
+    color: lightgrey;
+}
+
+#dark .wishlist:hover {
+    color: grey;
 }
