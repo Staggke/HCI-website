@@ -19,6 +19,10 @@ function App() {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
   return (
+    <div className="search-bar-container">
+    <div>Search Bar<div>
+    <div>Search Result<div>
+    <div>
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
     <div className="App" id={theme}>
       <ShopContextProvider>
