@@ -9,6 +9,7 @@ import { ProductPage } from './pages/productPage/productPage';
 import { ShopContextProvider } from './context/shop-context';
 import { createContext, useState } from 'react';
 import ReactSwitch from 'react-switch';
+import { SearchBar } from "./components/SearchBar";
 
 export const ThemeContext = createContext(null);
 
@@ -20,7 +21,7 @@ function App() {
   };
   return (
     <div className="search-bar-container">
-    <div>Search Bar<div>
+    <SearchBar />
     <div>Search Result<div>
     <div>
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
