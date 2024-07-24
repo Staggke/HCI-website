@@ -3,7 +3,7 @@ import React, {useSate} from 'react';
 import {FaSearch} from "react-icons/fa"
 import "./SearchBar.css"
 
-export const SearchBar = () => {
+export const SearchBar = ({setResults}) => {
   const[input, setInput] = useState("e.target.value");
 
   const fetchData = (value) => {
@@ -11,7 +11,7 @@ export const SearchBar = () => {
       const results = json.filter((user) => {
         return value && user && user.name && user.name.toLowerCase().includes(value)
       });
-      console.log(results);
+      setResults(results);
     });
   }
 
