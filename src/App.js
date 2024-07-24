@@ -19,9 +19,13 @@ function App() {
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
+
+
+  const[results, setResults] = useState([])
+  
   return (
     <div className="search-bar-container">
-    <SearchBar />
+    <SearchBar setResults={setResults}/>
     <div>Search Result<div>
     <div>
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
