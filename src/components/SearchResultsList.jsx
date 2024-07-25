@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import "./SearchResultsList.css";
 
 export const SearchResultsList = () => {
   return(
