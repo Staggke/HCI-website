@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="search-bar-container">
     <SearchBar setResults={setResults}/>
-    <div>Search Result<div>
+    <SearchResultsList results={results} />
     <div>
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
     <div className="App" id={theme}>
