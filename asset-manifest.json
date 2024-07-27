@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HCI-website/static/css/main.9ceea28d.css",
-    "main.js": "/HCI-website/static/js/main.7ca89a7f.js",
+    "main.css": "/HCI-website/static/css/main.7ea766bc.css",
+    "main.js": "/HCI-website/static/js/main.ce9e6788.js",
     "static/media/img4.jpg": "/HCI-website/static/media/img4.7db76d60c838f18f00b5.jpg",
     "static/media/img2.jpg": "/HCI-website/static/media/img2.cea9289733f7f2148589.jpg",
     "static/media/img6.jpg": "/HCI-website/static/media/img6.827f9c99813508aa28fa.jpg",
@@ -11,11 +11,11 @@
     "static/media/img1.webp": "/HCI-website/static/media/img1.4630691783e289816c18.webp",
     "static/media/img7.webp": "/HCI-website/static/media/img7.2f638e2f58bd6d9168ec.webp",
     "index.html": "/HCI-website/index.html",
-    "main.9ceea28d.css.map": "/HCI-website/static/css/main.9ceea28d.css.map",
-    "main.7ca89a7f.js.map": "/HCI-website/static/js/main.7ca89a7f.js.map"
+    "main.7ea766bc.css.map": "/HCI-website/static/css/main.7ea766bc.css.map",
+    "main.ce9e6788.js.map": "/HCI-website/static/js/main.ce9e6788.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ceea28d.css",
-    "static/js/main.7ca89a7f.js"
+    "static/css/main.7ea766bc.css",
+    "static/js/main.ce9e6788.js"
   ]
 }
