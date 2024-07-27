@@ -56,6 +56,10 @@
     font-size: 25px;
 }
 
+.countHandler {
+    padding-bottom: 10px;
+}
+
 .countHandler input {
     width: 40px;
     text-align: center;
@@ -71,4 +75,69 @@
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+}
+
+.warranty {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.checkModal {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkModal .checkHeader {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.checkModal .checkContent {
+    width: 100%;
+    padding: 10px 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.checkModal .checkClose {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    transform: scale(1.2);
+}
+
+.checkModal .checkContent {
+    font-size: 17px;
+}
+
+.checkModal .checkContent button {
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    outline-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.checkModal .checkContent button:hover {
+    background-color: white;
+    color:black;
 }

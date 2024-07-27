@@ -61,7 +61,24 @@ form.form1 {
     border-radius: 20px;
     outline: none;
     box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.email {
+    width: 51%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
     margin-bottom: 27px;
@@ -69,24 +86,27 @@ form.form1 {
 }
 
 #light .username,
-#light .password {
+#light .password
+#light .email {
     color: rgb(38, 50, 56);
     background: rgba(136, 126, 126, 0.04);
 }
 
 #dark .username,
-#dark .password {
+#dark .password,
+#dark .email {
     color: black;
     background: lightgrey;
 }
 
 .username:focus,
-.password:focus {
+.password:focus 
+.email:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
 
 .submit {
-    width: 50px;
+    width: fit-content;
     display: flex;
     align-items: center;
     cursor: pointer;

@@ -1,0 +1,195 @@
+.seller {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 75%;
+    height: fit-content;
+    padding: 30px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#dark .seller {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.seller .account {
+    color:rgba(0, 0, 0, 0.815);
+    padding-bottom: 15px;
+}
+
+#dark .seller .account {
+    color: white;
+}
+
+.accountDetails {
+    font-size: 14px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+   
+}
+
+.seller button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#dark .seller button {
+    color: white;
+}
+
+#light .messageIcon,
+#light .favoriteIcon {
+    color: grey;
+}
+
+#dark .messageIcon,
+#dark .favoriteIcon {
+    color: lightgrey;
+}
+
+#light .messageIcon:hover,
+#light .favoriteIcon:hover {
+    color: black;
+}
+
+#dark .messageIcon:hover,
+#dark .favoriteIcon:hover {
+    color: grey;
+}
+
+.modal {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal .header {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.modal .content {
+    width: 100%;
+    padding: 10px 5px;
+    padding-top: 500px;
+    text-align: center;
+}
+
+.modal .close {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    transform: scale(1.2);
+}
+
+.modal .content .message {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    outline-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.modal .content .message:focus {
+    border: 2px solid white;
+}
+
+#light .tabTitle:enabled {
+    color: black;
+}
+
+#dark .tabTitle {
+    color: white;
+}
+
+#dark .tabContent {
+    color: white;
+}
+
+.itemTab {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    justify-content: left;
+}
+
+.pic {
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+}
+
+ .itemTab button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.review {
+    display: grid;
+    place-items: left;
+    text-align: left;
+    justify-content: left;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.reviewer {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+#dark .review {
+    background-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.qbox {
+    display: grid;
+    place-items: left;
+    text-align: left;
+    justify-content: left;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#dark .qbox {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}

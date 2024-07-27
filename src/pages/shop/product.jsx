@@ -5,7 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export const Product = (props) => {
-    const { id, productName, price, productImage } = props.data;
+    const { id, productName, price, productImage, seller } = props.data;
     const { addToCart, cartItems } = useContext(ShopContext);
     const { addToWish, wishItems } = useContext(ShopContext);
     const cartItemAmount = cartItems[id]
@@ -23,7 +23,7 @@ export const Product = (props) => {
             </Link>
             <div classname="description">
                 <h3>
-                    <Link to={`HCI-website/${props.data.id}`} style={{ textDecoration: "none", color: "grey" }}>
+                    <Link to={`${props.data.id}`} style={{ textDecoration: "none", color: "grey" }}>
                         {productName}
                     </Link>
                 </h3>

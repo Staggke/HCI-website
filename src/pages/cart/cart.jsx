@@ -3,6 +3,10 @@ import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
 import { CartItem } from './cart-item';
 import { useNavigate } from 'react-router-dom';
+import { IconButton } from '@mui/material';
+import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import "./cart.css";
 
 
@@ -28,7 +32,29 @@ export const Cart = () => {
             <div className='checkout'>
                 <p> Subtotal: ${totalAmount}</p>
                 <button onClick={() => navigate("/HCI-website")}> Continue Shopping </button>
-                <button> Checkout </button>
+                <Popup trigger={<button> Checkout </button>} position="right center"
+                 modal nested>
+                {
+                    close => (
+                    <div className="checkModal">
+                        <IconButton className="checkClose" onClick={() => close()}>
+                            <CancelOutlinedIcon />
+                        </IconButton>
+                        <div className="checkHeader"> Shipping </div>
+                        <div className="checkContent">
+                            <p>How do you want to recieve your package?</p>
+                            <button onClick={() => close()}>
+                                Ship to you
+                            </button>
+                            &emsp;
+                            <button onClick={() => close()}>
+                                Pickup
+                            </button>
+                        </div>
+                    </div>
+                    )
+                }
+                </Popup>
             </div>
             ) : ( 
             <h1 className='emptyCart'> Your Cart is Empty </h1>

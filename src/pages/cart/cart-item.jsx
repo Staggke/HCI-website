@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import { ShopContext } from "../../context/shop-context";
+import 'reactjs-popup/dist/index.css';
 
 export const CartItem = (props) => {
     const { id, productName, price, productImage } = props.data;
@@ -18,6 +19,7 @@ export const CartItem = (props) => {
                     <input value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)}/>
                     <button onClick={() => addToCart(id)}> + </button>
                 </div>
+                    <button className="warranty"> Add Warranty </button>
             </div>
         </div>
     );

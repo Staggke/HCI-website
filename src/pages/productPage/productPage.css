@@ -6,8 +6,6 @@
     display: block;
     height: auto;
     block-size: auto;
-
-    
 }
 
 .prod .descript {
@@ -16,7 +14,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
 }
 
 #light .prod {
@@ -38,6 +36,7 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     margin: auto;
+    margin-bottom: 25px;
     width: fit-content;
     
 }
@@ -54,7 +53,7 @@
 
 .addToCartBttn {
     background-color: transparent;
-    border: 2px solid rgb(19, 19, 19);
+    border: 1px solid rgb(19, 19, 19);
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -88,4 +87,144 @@
 
 #dark .wishlist:hover {
     color: grey;
+}
+
+.heading {
+    padding-bottom: 10px;
+}
+.comment {
+    display: grid;
+    place-items: left;
+    text-align: left;
+    justify-content: left;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.commenter {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+#dark .comment {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.offerTrigger {
+    width: 110px;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#dark .offerTrigger {
+    color: white;
+    border: 1px solid white;
+}
+
+#light .offerTrigger:hover {
+    background-color: black;
+    color: white;
+}
+
+#dark .offerTrigger:hover {
+    background-color: white;
+    color: black;
+}
+
+.offerModal,
+.stockModal {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offerModal .offerHeader,
+.stockModal .stockHeader {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.offerModal .offerContent,
+.stockModal .stockContent {
+    width: 100%;
+    padding: 10px 5px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.offerModal .offerClose,
+.stockModal .stockClose {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    transform: scale(1.2);
+}
+
+.offerModal .offerContent .offer,
+.stockModal .stockContent .stock {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    outline-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.offerModal .offerContent .offer:focus,
+.stockModal .stockContent .stock:focus {
+    border: 2px solid white;
+}
+
+.stockButton {
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    color: grey;
+    outline-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.stockButton:hover {
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.noStock button {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.stock {
+    padding-bottom: 10px;
 }
